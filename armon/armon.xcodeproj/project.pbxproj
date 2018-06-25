@@ -215,13 +215,16 @@
 				TargetAttributes = {
 					9F0DA8B120E0DA8800A83029 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					9F0DA8C720E0DA8A00A83029 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 9F0DA8B120E0DA8800A83029;
 					};
 					9F0DA8D220E0DA8A00A83029 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 9F0DA8B120E0DA8800A83029;
 					};
 				};
@@ -463,7 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kireyin.armon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -481,7 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kireyin.armon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -501,7 +504,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kireyin.armonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/armon.app/armon";
 			};
@@ -522,7 +525,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kireyin.armonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/armon.app/armon";
 			};
@@ -542,7 +545,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kireyin.armonUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = armon;
 			};
@@ -562,7 +565,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kireyin.armonUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = armon;
 			};

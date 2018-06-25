@@ -11,7 +11,6 @@ import SceneKit
 import ARKit
 
 class ViewController: UIViewController {
-
     @IBOutlet var sceneView: ARSCNView!
     
     let fadeDuration: TimeInterval = 0.3
@@ -58,7 +57,8 @@ class ViewController: UIViewController {
         }
         let configuration = ARWorldTrackingConfiguration()
         configuration.detectionImages = referenceImages
-        
+        configuration.isAutoFocusEnabled = true
+		
         if #available(iOS 12.0, *) {
             configuration.maximumNumberOfTrackedImages = 6
         }
@@ -117,13 +117,11 @@ extension ViewController: ARSCNViewDelegate {
         }
         let referenceImage = imageAnchor.referenceImage
         let imageName = referenceImage.name ?? "no name"
-        
+		
         let overlayNode = getNode(withImageName: imageName)
         overlayNode.opacity = 0
         overlayNode.runAction(self.fadeAndSpinAction)
 
         node.addChildNode(overlayNode)
     }
-    
-    
 }
