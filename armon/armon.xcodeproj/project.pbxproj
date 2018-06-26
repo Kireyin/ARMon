@@ -16,6 +16,7 @@
 		9F0DA8D820E0DA8A00A83029 /* armonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DA8D720E0DA8A00A83029 /* armonUITests.swift */; };
 		9F38554020E11DFC002325D6 /* Eevee.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F38553F20E11DFC002325D6 /* Eevee.scnassets */; };
 		9F38554220E11E99002325D6 /* Bulbasaur.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F38554120E11E99002325D6 /* Bulbasaur.scnassets */; };
+		9FBE6B4D20E244D000B0E938 /* Platform_Grass.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FBE6B4C20E244D000B0E938 /* Platform_Grass.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9F0DA8D920E0DA8A00A83029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F38553F20E11DFC002325D6 /* Eevee.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Eevee.scnassets; sourceTree = "<group>"; };
 		9F38554120E11E99002325D6 /* Bulbasaur.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Bulbasaur.scnassets; sourceTree = "<group>"; };
+		9FBE6B4C20E244D000B0E938 /* Platform_Grass.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Platform_Grass.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +135,18 @@
 		9F0DA8E720E0E8DF00A83029 /* 3D Models */ = {
 			isa = PBXGroup;
 			children = (
+				9FBE6B4B20E2448900B0E938 /* Platforms */,
 				9FDF526020E0ED9200D067DF /* Pokemons */,
 			);
 			path = "3D Models";
+			sourceTree = "<group>";
+		};
+		9FBE6B4B20E2448900B0E938 /* Platforms */ = {
+			isa = PBXGroup;
+			children = (
+				9FBE6B4C20E244D000B0E938 /* Platform_Grass.scnassets */,
+			);
+			path = Platforms;
 			sourceTree = "<group>";
 		};
 		9FDF526020E0ED9200D067DF /* Pokemons */ = {
@@ -259,6 +270,7 @@
 				9F38554220E11E99002325D6 /* Bulbasaur.scnassets in Resources */,
 				9F0DA8BF20E0DA8A00A83029 /* Assets.xcassets in Resources */,
 				9F0DA8BD20E0DA8800A83029 /* Main.storyboard in Resources */,
+				9FBE6B4D20E244D000B0E938 /* Platform_Grass.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

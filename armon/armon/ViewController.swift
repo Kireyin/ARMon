@@ -83,7 +83,7 @@ class ViewController: UIViewController {
     }
     
     func getNode(withImageName name: String) -> SCNNode {
-        guard let scene = SCNScene(named: "\(name).scnassets/\(name).dae") else {
+        guard let scene = SCNScene(named: "\(name).scnassets/\(name).scn") else {
             return SCNNode()
         }
         let nodes = getSubNodes(in: scene)
@@ -100,7 +100,7 @@ class ViewController: UIViewController {
         case "Eevee":
             scaleFactor = 0.003
         default:
-            scaleFactor = 1
+            scaleFactor = 0.00005
         }
         
         render.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)
