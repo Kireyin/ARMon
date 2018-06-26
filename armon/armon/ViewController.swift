@@ -114,7 +114,8 @@ extension ViewController: ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         guard let imageAnchor = anchor as? ARImageAnchor else {
             return
-        }
+		}
+		
         let referenceImage = imageAnchor.referenceImage
         let imageName = referenceImage.name ?? "no name"
 		
@@ -124,4 +125,11 @@ extension ViewController: ARSCNViewDelegate {
 
         node.addChildNode(overlayNode)
     }
+	
+	func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+		guard let imageAnchor = anchor as? ARImageAnchor else {
+			return
+		}
+		node.opacity = imageAnchor.isTracked ? 1 : 0
+	}
 }

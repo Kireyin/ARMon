@@ -10,10 +10,10 @@
 		9F0DA8B620E0DA8800A83029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DA8B520E0DA8800A83029 /* AppDelegate.swift */; };
 		9F0DA8BA20E0DA8800A83029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DA8B920E0DA8800A83029 /* ViewController.swift */; };
 		9F0DA8BD20E0DA8800A83029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0DA8BB20E0DA8800A83029 /* Main.storyboard */; };
-		9F0DA8BF20E0DA8A00A83029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0DA8BE20E0DA8A00A83029 /* Assets.xcassets */; };
 		9F0DA8C220E0DA8A00A83029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0DA8C020E0DA8A00A83029 /* LaunchScreen.storyboard */; };
 		9F0DA8CD20E0DA8A00A83029 /* armonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DA8CC20E0DA8A00A83029 /* armonTests.swift */; };
 		9F0DA8D820E0DA8A00A83029 /* armonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DA8D720E0DA8A00A83029 /* armonUITests.swift */; };
+		9F2800B020E2973D00A2911E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2800AF20E2973D00A2911E /* Assets.xcassets */; };
 		9F38554020E11DFC002325D6 /* Eevee.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F38553F20E11DFC002325D6 /* Eevee.scnassets */; };
 		9F38554220E11E99002325D6 /* Bulbasaur.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F38554120E11E99002325D6 /* Bulbasaur.scnassets */; };
 		9FBE6B4D20E244D000B0E938 /* Platform_Grass.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FBE6B4C20E244D000B0E938 /* Platform_Grass.scnassets */; };
@@ -41,7 +41,6 @@
 		9F0DA8B520E0DA8800A83029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F0DA8B920E0DA8800A83029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F0DA8BC20E0DA8800A83029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F0DA8BE20E0DA8A00A83029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0DA8C120E0DA8A00A83029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F0DA8C320E0DA8A00A83029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F0DA8C820E0DA8A00A83029 /* armonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = armonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +49,7 @@
 		9F0DA8D320E0DA8A00A83029 /* armonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = armonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0DA8D720E0DA8A00A83029 /* armonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = armonUITests.swift; sourceTree = "<group>"; };
 		9F0DA8D920E0DA8A00A83029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2800AF20E2973D00A2911E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F38553F20E11DFC002325D6 /* Eevee.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Eevee.scnassets; sourceTree = "<group>"; };
 		9F38554120E11E99002325D6 /* Bulbasaur.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Bulbasaur.scnassets; sourceTree = "<group>"; };
 		9FBE6B4C20E244D000B0E938 /* Platform_Grass.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Platform_Grass.scnassets; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 				9F0DA8B520E0DA8800A83029 /* AppDelegate.swift */,
 				9F0DA8E720E0E8DF00A83029 /* 3D Models */,
 				9F0DA8B920E0DA8800A83029 /* ViewController.swift */,
+				9F2800AF20E2973D00A2911E /* Assets.xcassets */,
 				9F0DA8BB20E0DA8800A83029 /* Main.storyboard */,
-				9F0DA8BE20E0DA8A00A83029 /* Assets.xcassets */,
 				9F0DA8C020E0DA8A00A83029 /* LaunchScreen.storyboard */,
 				9F0DA8C320E0DA8A00A83029 /* Info.plist */,
 			);
@@ -268,8 +268,8 @@
 				9F38554020E11DFC002325D6 /* Eevee.scnassets in Resources */,
 				9F0DA8C220E0DA8A00A83029 /* LaunchScreen.storyboard in Resources */,
 				9F38554220E11E99002325D6 /* Bulbasaur.scnassets in Resources */,
-				9F0DA8BF20E0DA8A00A83029 /* Assets.xcassets in Resources */,
 				9F0DA8BD20E0DA8800A83029 /* Main.storyboard in Resources */,
+				9F2800B020E2973D00A2911E /* Assets.xcassets in Resources */,
 				9FBE6B4D20E244D000B0E938 /* Platform_Grass.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
