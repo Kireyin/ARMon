@@ -1,6 +1,9 @@
 {
   "images" : [
-
+    {
+      "filename" : "1633835-bulbasaur_by_thunderwest.jpg",
+      "idiom" : "universal"
+    }
   ],
   "info" : {
     "author" : "xcode",
